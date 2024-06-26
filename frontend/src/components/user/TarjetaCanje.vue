@@ -1,7 +1,7 @@
 <template>
 
     <div class="imagen">
-        <img  alt="" src="../assets/imagen.png">
+        <img :src="require('../assets/imagen.png')" alt="Descripción">
         <p class="descripcion">Lorem Ipsum</p>
         <p class="precio">Puntos: 30</p>
         <button class="btn" @click="canjear">Canjear</button>
